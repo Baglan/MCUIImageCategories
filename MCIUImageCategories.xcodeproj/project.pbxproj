@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860F4FD218092CC9000C14D2 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 860F4FD118092CC9000C14D2 /* sample.png */; };
 		8620AE321806E414005CC556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8620AE311806E414005CC556 /* Foundation.framework */; };
 		8620AE341806E414005CC556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8620AE331806E414005CC556 /* CoreGraphics.framework */; };
 		8620AE361806E414005CC556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8620AE351806E414005CC556 /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		8620AE531806E414005CC556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8620AE351806E414005CC556 /* UIKit.framework */; };
 		8620AE5B1806E414005CC556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8620AE591806E414005CC556 /* InfoPlist.strings */; };
 		8620AE5D1806E414005CC556 /* MCIUImageCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620AE5C1806E414005CC556 /* MCIUImageCategoriesTests.m */; };
+		8620AE691806E453005CC556 /* UIImage+croppedImageAtRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620AE681806E453005CC556 /* UIImage+croppedImageAtRect.m */; };
+		8620AE6C1806E5DC005CC556 /* UIImage+resizedImageWithSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620AE6B1806E5DC005CC556 /* UIImage+resizedImageWithSize.m */; };
+		8620AE6F1806E974005CC556 /* UIImage+colorAt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620AE6E1806E974005CC556 /* UIImage+colorAt.m */; };
+		8620AE711806EE40005CC556 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8620AE701806EE40005CC556 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		860F4FD118092CC9000C14D2 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 		8620AE2E1806E414005CC556 /* MCIUImageCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCIUImageCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8620AE311806E414005CC556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8620AE331806E414005CC556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,13 @@
 		8620AE581806E414005CC556 /* MCIUImageCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCIUImageCategoriesTests-Info.plist"; sourceTree = "<group>"; };
 		8620AE5A1806E414005CC556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8620AE5C1806E414005CC556 /* MCIUImageCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCIUImageCategoriesTests.m; sourceTree = "<group>"; };
+		8620AE671806E453005CC556 /* UIImage+croppedImageAtRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+croppedImageAtRect.h"; path = "Classes/UIImage+croppedImageAtRect.h"; sourceTree = "<group>"; };
+		8620AE681806E453005CC556 /* UIImage+croppedImageAtRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+croppedImageAtRect.m"; path = "Classes/UIImage+croppedImageAtRect.m"; sourceTree = "<group>"; };
+		8620AE6A1806E5DC005CC556 /* UIImage+resizedImageWithSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+resizedImageWithSize.h"; path = "Classes/UIImage+resizedImageWithSize.h"; sourceTree = "<group>"; };
+		8620AE6B1806E5DC005CC556 /* UIImage+resizedImageWithSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+resizedImageWithSize.m"; path = "Classes/UIImage+resizedImageWithSize.m"; sourceTree = "<group>"; };
+		8620AE6D1806E974005CC556 /* UIImage+colorAt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+colorAt.h"; path = "Classes/UIImage+colorAt.h"; sourceTree = "<group>"; };
+		8620AE6E1806E974005CC556 /* UIImage+colorAt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+colorAt.m"; path = "Classes/UIImage+colorAt.m"; sourceTree = "<group>"; };
+		8620AE701806EE40005CC556 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,8 @@
 		8620AE251806E414005CC556 = {
 			isa = PBXGroup;
 			children = (
+				8620AE701806EE40005CC556 /* README.md */,
+				8620AE661806E421005CC556 /* Classes */,
 				8620AE371806E414005CC556 /* MCIUImageCategories */,
 				8620AE561806E414005CC556 /* MCIUImageCategoriesTests */,
 				8620AE301806E414005CC556 /* Frameworks */,
@@ -112,6 +127,7 @@
 		8620AE371806E414005CC556 /* MCIUImageCategories */ = {
 			isa = PBXGroup;
 			children = (
+				860F4FD118092CC9000C14D2 /* sample.png */,
 				8620AE401806E414005CC556 /* AppDelegate.h */,
 				8620AE411806E414005CC556 /* AppDelegate.m */,
 				8620AE431806E414005CC556 /* Main.storyboard */,
@@ -150,6 +166,19 @@
 				8620AE591806E414005CC556 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8620AE661806E421005CC556 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8620AE671806E453005CC556 /* UIImage+croppedImageAtRect.h */,
+				8620AE681806E453005CC556 /* UIImage+croppedImageAtRect.m */,
+				8620AE6A1806E5DC005CC556 /* UIImage+resizedImageWithSize.h */,
+				8620AE6B1806E5DC005CC556 /* UIImage+resizedImageWithSize.m */,
+				8620AE6D1806E974005CC556 /* UIImage+colorAt.h */,
+				8620AE6E1806E974005CC556 /* UIImage+colorAt.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +259,9 @@
 			files = (
 				8620AE4A1806E414005CC556 /* Images.xcassets in Resources */,
 				8620AE3C1806E414005CC556 /* InfoPlist.strings in Resources */,
+				8620AE711806EE40005CC556 /* README.md in Resources */,
 				8620AE451806E414005CC556 /* Main.storyboard in Resources */,
+				860F4FD218092CC9000C14D2 /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8620AE6C1806E5DC005CC556 /* UIImage+resizedImageWithSize.m in Sources */,
 				8620AE481806E414005CC556 /* ViewController.m in Sources */,
 				8620AE421806E414005CC556 /* AppDelegate.m in Sources */,
+				8620AE691806E453005CC556 /* UIImage+croppedImageAtRect.m in Sources */,
+				8620AE6F1806E974005CC556 /* UIImage+colorAt.m in Sources */,
 				8620AE3E1806E414005CC556 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +494,7 @@
 				8620AE621806E414005CC556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8620AE631806E414005CC556 /* Build configuration list for PBXNativeTarget "MCIUImageCategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +503,7 @@
 				8620AE651806E414005CC556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
