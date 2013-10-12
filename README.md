@@ -1,6 +1,8 @@
 # MCUIImageCategories
 
-Helpful UIImage categories
+Helpful UIImage categories.
+
+![Screenshot of the sample project](screenshot.png "Screenshot of the sample project")
 
 ## Installation
 
